@@ -44,8 +44,8 @@
 		3CC7CD3D1AE152D0002CB1FB /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddToDoItemViewController.m; path = ../AddToDoItemViewController.m; sourceTree = "<group>"; };
 		3CC7CD3F1AE15444002CB1FB /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
 		3CC7CD401AE15444002CB1FB /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
-		3CC7CD421AE16375002CB1FB /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoItem.h; path = ToDoList/ToDoItem.h; sourceTree = "<group>"; };
-		3CC7CD431AE16375002CB1FB /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoItem.m; path = ToDoList/ToDoItem.m; sourceTree = "<group>"; };
+		3CC7CD421AE16375002CB1FB /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		3CC7CD431AE16375002CB1FB /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,6 @@
 		3C6F17181AE042EE007C66F4 = {
 			isa = PBXGroup;
 			children = (
-				3CC7CD421AE16375002CB1FB /* ToDoItem.h */,
-				3CC7CD431AE16375002CB1FB /* ToDoItem.m */,
 				3C6F17231AE042EE007C66F4 /* ToDoList */,
 				3C6F173D1AE042EE007C66F4 /* ToDoListTests */,
 				3C6F17221AE042EE007C66F4 /* Products */,
@@ -89,6 +87,8 @@
 		3C6F17231AE042EE007C66F4 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				3CC7CD421AE16375002CB1FB /* ToDoItem.h */,
+				3CC7CD431AE16375002CB1FB /* ToDoItem.m */,
 				3CC7CD3C1AE152D0002CB1FB /* AddToDoItemViewController.h */,
 				3CC7CD3D1AE152D0002CB1FB /* AddToDoItemViewController.m */,
 				3C6F17281AE042EE007C66F4 /* AppDelegate.h */,
